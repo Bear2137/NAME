@@ -1,0 +1,90 @@
+body{
+    background-image:url(https://e0.pxfuel.com/wallpapers/310/154/desktop-wallpaper-aesthetic-beach-horizontal-aesthetic-wave.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+  justify-content:center;
+  font-family: 'Comfortaa', cursive;
+  margin: 300px;
+  }
+  #header1{ 
+    text-align:center;
+    font-size:70px;}
+
+#progresCheck{
+  color:red;
+  font-size:28px;
+}
+
+#headerClick:hover{
+  color:rgb(241, 0, 141);
+
+}
+#homePageClick:hover{
+  color:rgb(241, 0, 141);
+}
+a{
+  margin:10px;
+  background-color:bisque;
+}
+
+#topTab {
+    flex-direction:row;
+      position:absolute;
+      z-index: 1000;
+      width: 1000px;
+      background-color: #11163b;
+      display: block;
+      top: 1em ;
+      size: 200px;
+      margin:80px;
+      color:peachpuff;
+      height:150px;
+      padding-left:30px;
+  
+    }
+  
+  #main{
+    color:#1d2352;
+    background-color:#c0c7fc;
+    margin:10px;
+    padding:50px;
+    opacity:0.5;
+  }
+  #topTab:hover{
+    background-color:#1d2351;
+}
+#submitNotice{
+  color:red;
+  font-size: 19px;;
+}
+  #main:hover{
+    opacity:1;
+  }
+  #user{
+    position: absolute; top: 0px; left: 0px;
+    font-size:40px;
+  }
+  #img{
+    border: solid black 5px;
+    margin:30px;
+    height:300px;
+    border-radius:25px;
+      border-color:#1d2352;
+  }
+  
+  input:invalid {
+    background-color:#FF90AA;
+  }
+  
+  input:required:valid {
+    color:#90FFAD;
+  }
+   input:focus {
+    border: solid purple 4px;
+  }
+  button{margin:20px;}
+  input{
+    margin:20px;
+  }

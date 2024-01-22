@@ -1,0 +1,79 @@
+body{
+    background-image:url(https://wallpapers.com/images/hd/pink-tall-grasses-under-blue-sky-3xhvaa82l7byam0j.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+  justify-content:center;
+  font-family: 'Comfortaa', cursive;
+  margin: 300px;
+  }
+  #header{ 
+    text-align:center;
+    font-size:70px;}
+
+#headerClick:hover{
+  color:rgb(241, 0, 141);
+
+}
+#homePageClick:hover{
+  color:rgb(241, 0, 141);
+}
+p1:hover{
+    opacity: 100%;
+}
+h2:hover{
+    opacity: 100%;
+}
+
+h2{
+    opacity: 75%;
+    font-size: 30px;
+    padding:10px;
+    
+    margin:20px;
+    background-color:rgb(215, 117, 145);
+    color:white;
+}
+p1{
+    opacity: 75%;
+    font-size: 25px;;
+    padding:10px;
+    margin:20px;
+    background-color:rgb(215, 117, 145);
+    color:white;   
+}
+
+#topTab {
+    flex-direction:row;
+      position:absolute;
+      z-index: 1000;
+      width: 1100px;
+      height:150px;
+      background-color: #11163b;
+      display: block;
+      top: 1em ;
+      size: 200px;
+      margin:80px;
+      padding-left:30px;
+      color:peachpuff;
+  
+    }
+a{
+    margin:10px;
+    background-color:bisque;
+}
+#topTab:hover{
+    background-color:#1d2351;
+}
+#img{
+  border: solid black 5px;
+  margin:30px;
+  height:300px;
+  border-radius:25px;
+    border-color:#1d2352;
+}
+#user{
+  position: absolute; top: 0px; left: 0px;
+  font-size:40px;
+}
